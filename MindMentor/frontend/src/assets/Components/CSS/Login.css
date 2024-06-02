@@ -1,0 +1,75 @@
+/* src/components/CSS/Login.css */
+
+/* Ensure no margin or padding on the body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Set a background color to see if any extra margin exists */
+}
+
+/* Center the login container */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000; /* Black background for the full height */
+}
+
+/* Style the login card */
+.login-card {
+    background: linear-gradient(to right bottom, rgb(25, 173, 32), rgb(15, 17, 162)); /* Gradient background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Title styles */
+.login-card h1,
+.login-card h2 {
+    color: white;
+    font-family: 'Lucida Grande';
+    margin: -5px 0 20px ; /* Add some margin below the titles */
+}
+
+/* Input field styles */
+.login-card label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-align: left;
+    font-family:sans-serif ;
+}
+
+.login-card input {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styles */
+.login-card button {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 10px;
+    background-color: black; /* Black button */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.login-card button:hover {
+    background-color: #333; /* Slightly lighter black on hover */
+}

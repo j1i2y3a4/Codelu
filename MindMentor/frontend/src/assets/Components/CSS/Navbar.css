@@ -1,0 +1,34 @@
+nav {
+    background: linear-gradient(to right, rgb(25, 173, 32) , rgb(15, 17, 162));
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 7%;
+    color:whitesmoke;
+}
+
+.title{
+    font-size: large;
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+ul li{
+    display: inline;
+    margin: 20px;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #ccc;
+}
+
