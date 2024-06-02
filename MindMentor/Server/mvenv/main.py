@@ -19,15 +19,14 @@ def login():
     password = data.get('password')
 
     if not email or not password:
-        return jsonify({"error": "Email and password are required"}),400
+        return jsonify({"success": False, "message": "Email and password are required"}), 400
     
     user = collection.find_one({"email" : email})
 
     if user and user['password'] == password:
        
-        return jsonify({"message": "Login succesfull"}),200
+        return jsonify({"success": True, "message": "Login successful"}), 200
     else : 
-        return jsonify({"error": "Invalid email or password"}),401             
-
+         return jsonify({"success": False, "message": "Invalid email or password"}), 401
 if __name__ == "__main__" :
     app.run(debug=True,port="3000")
