@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 #Configuring MongoDB Details
 
-MongoDB_URL= "mongodb+srv://jiyarosejoshy:unnimanga>@cluster0.ydvehnw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MongoDB_URL= "mongodb+srv://jiyarosejoshy:unnimanga@cluster0.ydvehnw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 # client = MongoClient("mongodb://localhost:27017")
 client = MongoClient(MongoDB_URL)
 db =  client['Login']
