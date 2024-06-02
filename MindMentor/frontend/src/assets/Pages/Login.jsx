@@ -15,7 +15,7 @@ const Login = ({ onLogin }) => {
 
     const handleLogin = async () => {
         try {
-            const response = await fetch('http://localhost:3000/', {
+            const response = await fetch('http://localhost:5173/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -41,8 +41,10 @@ const Login = ({ onLogin }) => {
 
     return (
         <div className="login">
-            <div className="login-card">
+            <div className="header">
                 <h1>MIND MENTOR</h1>
+            </div>
+            <div className="login-card">
                 <h2>LOGIN</h2>
                 <div>
                     <label htmlFor="username">Username:</label>
