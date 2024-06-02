@@ -15,7 +15,7 @@ collection = db['Users']
 @app.route('/',methods=['POST'])
 def login():
     data = request.get_json()
-    email = data.get('email')
+    email = data.get('username')
     password = data.get('password')
 
     if not email or not password:
@@ -30,4 +30,4 @@ def login():
         return jsonify({"error": "Invalid email or password"}),401             
 
 if __name__ == "__main__" :
-    app.run(debug=True)
+    app.run(debug=True,port="3000")
