@@ -17,7 +17,8 @@ const AppRoutes = () => {
             {isLoggedIn && <Navbar />}
             <Routes>
                 <Route path="/" element={<Login onLogin={handleLogin} />} />
-                <Route path="/profile" element={isLoggedIn ? <Profile /> : <Login onLogin={handleLogin} />} />
+                {/* <Route path="/profile" element={isLoggedIn ? <Profile /> : <Login onLogin={handleLogin} />} /> */}
+                <Route path="/" element={<Profile/>}/>
                 <Route path="/chat" element={isLoggedIn ? <Chat /> : <Login onLogin={handleLogin} />} />
                 <Route path="/tasks" element={isLoggedIn ? <Task /> : <Login onLogin={handleLogin} />} />
             </Routes>
