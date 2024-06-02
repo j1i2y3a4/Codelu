@@ -18,7 +18,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<Login onLogin={handleLogin} />} />
         {/* <Route path="/profile" element={isLoggedIn ? <Profile /> : <Login onLogin={handleLogin} />} /> */}
-        <Route path="/" element={<Profile />} />
+        <Route path="/profile" element={<Profile />} />
         <Route
           path="/chat"
           element={isLoggedIn ? <Chat /> : <Login onLogin={handleLogin} />}
