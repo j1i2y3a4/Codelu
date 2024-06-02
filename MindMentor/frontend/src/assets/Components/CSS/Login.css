@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000; /* Set a background color to see if any extra margin exists */
+    background-color: #0000; /* Set a background color to see if any extra margin exists */
 }
 
 /* Center the login container */
@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #000; /* Black background for the full height */
+    background-color: #0000; /* Black background for the full height */
 }
 
 /* Header styles */
