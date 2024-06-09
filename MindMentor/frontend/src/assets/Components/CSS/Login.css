@@ -2,9 +2,11 @@
 
 /* Ensure no margin or padding on the body */
 body {
+    background-color: #0000;
+    color: white;
     margin: 0;
     padding: 0;
-    background-color: #0000; /* Set a background color to see if any extra margin exists */
+     /* Set a background color to see if any extra margin exists */
 }
 
 /* Center the login container */

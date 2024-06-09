@@ -1,6 +1,4 @@
-body{
-    background-color: white;
-}
+
 .profile {
     display: flex;
     flex-direction: column;
@@ -8,3 +6,18 @@ body{
     background-color: #f5f5f5;
     min-height: 100vh;
   }
+.profile-card{
+    background-color: antiquewhite; /* Background color as specified */
+    color: white; /* Text color as specified */
+    border: 1px solid white; /* Border color as specified */
+    height: 100px; /* Height as specified */
+    width: 200px; /* Width as specified */
+    margin-top: 100px; /* Margin top as specified */
+    padding: 20px; /* Add some padding for better layout */
+    border-radius: 10px; /* Optional: add border-radius for smoother corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
