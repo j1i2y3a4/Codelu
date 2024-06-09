@@ -2,7 +2,7 @@
 
 /* Ensure no margin or padding on the body */
 body {
-    background-color: #0000;
+    background-color:#000000;
     color: white;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #0000; /* Black background for the full height */
+    background-color: #000000; /* Black background for the full height */
 }
 
 /* Header styles */
@@ -57,9 +57,9 @@ body {
 /* Input field styles */
 .login-card label {
     color: white;
-    display: block;
-    margin-bottom: 5px;
-    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-right: 450px;
+    padding-left: 10px;
     text-align: left;
     font-family: sans-serif;
 }
@@ -68,6 +68,7 @@ body {
     width: calc(100% - 20px); /* Adjust width to account for padding */
     padding: 10px;
     margin-bottom: 15px;
+    margin-top: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
